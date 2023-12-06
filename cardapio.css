@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+#header {
+  text-align: center;
+  background-color: #d9d9d9;
+  padding: 15px;
+}
+
+#week {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+#week h4 {
+  background-color: #d9d9d9;
+  text-decoration: none;
+  color: black;
+  padding: 10px 60px 10px 60px;
+  border-radius: 50px;
+}
+
+#texto-almoco h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#bolacha {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  margin-left: 10px;
+}
+
+#text .bolacha {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#bolo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+#text-bolo {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#bolo .bolo {
+  font-weight: bold;
+}
+
+
+footer {
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: #d9d9d9;
+  padding: 20px;
+}

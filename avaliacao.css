@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.image-voltar {
+  margin-top: 10px;
+}
+
+#text-almoco {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+#image-feijoada {
+  height: 500px;
+}
+
+.text-feijoada {
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.arroz {
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+#image-feijoada {
+  display: flex;
+  justify-content: center;
+}
+
+#title-avaliação {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 23px;
+}
+
+.avaliacao {
+  background-color: white;
+  position: absolute;
+  top: 450px;
+  bottom: 100px;
+  width: 100%;
+}
+
+.rating {
+  margin-top: 50px;
+  right: 280px;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  color: #aaa;
+  display: inline-block;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.rating label:before {
+  content: "★";
+  margin: 0 5px;
+  font-size: 30px;
+}
+
+.rating input:checked ~ label,
+.rating input:checked ~ label ~ label {
+  color: #ffa600;
+}
+
+.av1 {
+  background-color: #d9d9d9;
+  height: 160px;
+  width: 674px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.av2 {
+  background-color: #d9d9d9;
+  height: 160px;
+  width: 674px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.av1 .nicks {
+  margin-left: 200px;
+}
+
+.av2 .nicks {
+  margin-left: 200px;
+}
+
+.av3 {
+  background-color: #d9d9d9;
+  height: 160px;
+  width: 674px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.icones {
+  padding: 10px 10px 10px 12px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 275px;
+}
+
+.nicks {
+  color: black;
+  position: relative;
+  top: 30px;
+  right: 30px;
+  font-size: 18px;
+}
+
+.valesca {
+  color: black;
+  position: relative;
+  top: 30px;
+  right: 5px;
+  font-size: 18px;
+  margin-left: 200px;
+}
+
+#mirian {
+  position: relative;
+  right: 20px;
+}
+
+.av3 img {
+  position: relative;
+  right: 280px;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+}

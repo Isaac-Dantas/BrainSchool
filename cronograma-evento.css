@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#container {
+  min-width: 500px;
+}
+#voltar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#adicionar-evento {
+  margin-top: 50px;
+  margin-left: 174px;
+}
+
+#functions-container {
+  background-color: rgb(180, 178, 178);
+  height: 100vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#functions {
+  padding: 25px;
+}
+
+#text-data-hora {
+  font-size: 25px;
+  margin-top: px;
+  margin-left: 150px;
+}
+
+.number {
+  
+}
+
+#functions-container {
+    display: flex;
+    justify-content: center;
+}
+
+#data-functions {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+
+#day ul li {
+  list-style: none;
+}
+
+input[type="number"] {
+  border: none;
+  font-size: 50px;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(114, 112, 112);
+  
+}
+
+.year {
+  border: none;
+  font-size: 50px;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(114, 112, 112);
+  
+}
+
+#month ul li {
+  list-style: none;
+}
+
+#year ul li {
+  list-style: none;
+}
+
+#hour {
+  margin-top: 20px;
+  font-size: 30px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+#title {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.input-title {
+  align-items: center;
+  background-color: #414146;
+  padding: 8px;
+  width: 400px;
+  color: white;
+  border-radius: 5px;
+}
+
+.input-title input::placeholder {
+    color: white;
+}
+
+.input-title input {
+  color: white;
+}
+
+#observacoes {
+    margin-top: 50px;
+}
+.input-observacoes {
+  align-items: center;
+  background-color: #414146;
+  padding: 8px;
+  width: 500px;
+  height: 80px;
+  color: white;
+  border-radius: 5px;
+}
+
+#cores {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#cores img {
+    margin-top: 5px;
+    gap: 5px;
+}
+
+#salvar {
+    margin-top: 15px;
+    text-align: right;
+    text-decoration: none;
+}
+
+#salvar button {
+    background-color: #414146;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+#salvar a {
+    color: #ffff
+}
